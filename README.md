@@ -48,6 +48,8 @@ The Pandeyji Eatery Chatbot is designed to make the ordering process smooth and 
 - **Website:**
   - `index.html`: Dummy website HTML code.
   - `style.css`: CSS styling for the dummy website.
+- **Dialogflow_Agent:**
+  - `Dora-chatbot.zip`: Contents of the Dialogflow agent ZIP file. This includes the intents, entities, and other configurations.
 
 ### How to Explore:
 
@@ -60,6 +62,23 @@ The Pandeyji Eatery Chatbot is designed to make the ordering process smooth and 
 
 3. **Website Dummy Content:**
    - Examine the `website` folder for the dummy website HTML and CSS (`home.html` and `styles.css`) used for chatbot interaction.
+
+## Importing the Dialogflow Agent:
+
+1. Open your Dialogflow console: [Dialogflow Console](https://dialogflow.cloud.google.com/).
+
+2. Create a new agent with a name like "PandeyjiEateryChatbot."
+
+3. In the left sidebar, click on the gear icon (⚙️) next to the agent name.
+
+4. Click on the "Export and Import" tab.
+
+5. Click the "Restore from ZIP" button.
+
+6. Upload the ZIP file from the `dialogflow_agent` folder in this repository.
+
+7. Your Dialogflow agent is now imported and ready to use.
+
 
 ### Why This Project:
 
